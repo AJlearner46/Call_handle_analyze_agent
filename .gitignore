@@ -4,11 +4,14 @@
 .env.*.local
 .venv
 venv/
+*/venv/
 env/
 ENV/
 
 # Python
 __pycache__/
+*/__pycache__/
+*/*/__pycache__/
 *.py[cod]
 *$py.class
 *.so
@@ -29,8 +32,11 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+*.pyo
+*.pyd
 
 # Frontend
+node_modules/
 frontend/node_modules/
 frontend/dist/
 frontend/.parcel-cache
