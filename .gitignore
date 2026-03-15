@@ -1,3 +1,53 @@
+# Environment and secrets
 .env
+.env.local
+.env.*.local
 .venv
+venv/
+env/
+ENV/
+
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.parcel-cache
+frontend/.cache
+
+# IDE and Editor
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Misc
+.git
