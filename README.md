@@ -82,9 +82,4 @@ To enable local STT/TTS in the simulator, set:
 - `STT_PROVIDER=vosk` and `VOSK_MODEL_PATH=...`
 - `TTS_PROVIDER=piper` and `PIPER_MODEL_PATH=...`
 
-## Next Steps
 
-- Implement real LangGraph flow in `app/services/agent_service.py`
-- Add Gemini API calls in `app/agents/call_agent.py` and `app/agents/analysis_agent.py`
-- Build the React dashboard in a separate `dashboard/` app
-- Replace stub STT and TTS with local models
